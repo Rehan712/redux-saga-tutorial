@@ -1,0 +1,23 @@
+.login{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	height:calc(100vh - 60px);
+
+	.loginForm{
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+		align-items:flex-start;
+		margin:100px;
+		background-color:grey;
+		.textField{
+		width:300px;
+		// background-color:red;
+		margin:60px 0 15px 100px;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.app{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	.menu{
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		height:60px;
+		background-color:#958383;
+		align-items:center;
+	}
+}
